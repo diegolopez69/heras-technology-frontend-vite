@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heras Technology | IA para Atención al Cliente</title>
+    <meta name="description" content="Automatiza tu atención al cliente con Inteligencia Artificial Generativa. WhatsApp, Instagram y Facebook.">
+    
+    <!-- Fonts: Plus Jakarta Sans (Professional & Modern) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // Inicializa EmailJS con tu Public Key
+            // DEBES REEMPLAZAR 'TU_PUBLIC_KEY' CON LA REAL DE EMAILJS
+            emailjs.init("TU_PUBLIC_KEY"); 
+        })();
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <div class="logo-icon"><i class="ph-fill ph-hexagon"></i></div>
+                <div class="logo-text">Heras <span class="highlight">Technology</span></div>
+            </a>
+            <div class="nav-links">
+                <a href="#how-it-works">Soluciones</a>
+                <a href="#why-us">Tecnología</a>
+                <div class="nav-contact">
+                    <span class="flag" title="Sede en Guatemala">🇬🇹</span>
+                    <a href="tel:+50255174529" class="phone-link">+502 5517 4529</a>
+                </div>
+                <a href="#contact" class="btn-nav">Agendar Demo</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="stars"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="badge-pill">
+                    <span class="dot"></span> Tecnología de Vanguardia
+                </div>
+                <h1>El Futuro de la <br><span class="gradient-text">Atención al Cliente</span></h1>
+                <p>Convierte conversaciones en ventas. Nuestra IA responde, califica y gestiona a tus clientes en WhatsApp y Redes Sociales con la precisión de un experto humano.</p>
+                <div class="cta-group">
+                    <a href="#contact" class="btn-primary glow-effect">Empezar Ahora</a>
+                    <a href="#how-it-works" class="btn-text">Ver cómo funciona <i class="ph ph-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <div class="hero-visual-container">
+                <div class="hologram-base">
+                    <div class="hologram-card left float-animation">
+                        <div class="icon-wrapper"><i class="ph-fill ph-lightning"></i></div>
+                        <div class="card-text">
+                            <span class="label">Respuesta</span>
+                            <span class="value">Instantánea</span>
+                        </div>
+                    </div>
+                    <div class="central-figure">
+                        <div class="figure-body"></div>
+                        <div class="figure-glow"></div>
+                        <div class="figure-ring"></div>
+                    </div>
+                    <div class="hologram-card right float-animation-delayed">
+                        <div class="icon-wrapper"><i class="ph-fill ph-chart-line-up"></i></div>
+                        <div class="card-text">
+                            <span class="label">Conversión</span>
+                            <span class="value">+40%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="horizon-glow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works (Cards) -->
+    <section id="how-it-works" class="cards-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Potencia tu Negocio</h2>
+                <p>Una plataforma integral para escalar tus ventas sin aumentar personal.</p>
+            </div>
+            <div class="cards-grid">
+                <div class="glow-card">
+                    <div class="card-icon">
+                        <div class="orb">
+                            <i class="ph-fill ph-plugs-connected"></i>
+                        </div>
+                    </div>
+                    <h3>Integración Total</h3>
+                    <p>Centraliza WhatsApp, Instagram y Facebook. Olvida tener múltiples pestañas abiertas; gestiona todo desde un solo cerebro digital.</p>
+                </div>
+                <div class="glow-card">
+                    <div class="card-icon">
+                        <div class="orb">
+                            <i class="ph-fill ph-brain"></i>
+                        </div>
+                    </div>
+                    <h3>Memoria Corporativa (RAG)</h3>
+                    <p>A diferencia de los chatbots básicos, nuestra IA estudia tus manuales y PDFs para responder con la misma precisión que tu mejor empleado.</p>
+                </div>
+                <div class="glow-card">
+                    <div class="card-icon">
+                        <div class="orb">
+                            <i class="ph-fill ph-currency-dollar"></i>
+                        </div>
+                    </div>
+                    <h3>Ventas Automáticas</h3>
+                    <p>El sistema detecta quién quiere comprar y quién solo mira. Cierra ventas simples y agenda citas con los clientes de alto valor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Join / Timeline Section -->
+    <section id="why-us" class="timeline-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿Por qué Heras Technology?</h2>
+                <p>No somos solo un chatbot. Somos tu infraestructura de crecimiento.</p>
+            </div>
+            <div class="timeline-layout">
+                <div class="timeline-content">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-text">
+                            <h3>Inteligencia Contextual</h3>
+                            <p>Utilizamos tecnología <strong>RAG (Retrieval-Augmented Generation)</strong>. Esto significa que la IA no "inventa" respuestas, sino que consulta tu base de conocimiento en tiempo real para dar información veraz y específica de tu negocio.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-text">
+                            <h3>Ecosistema Meta Nativo</h3>
+                            <p>Conexión directa con la API de WhatsApp Business. Sin intermediarios inestables, garantizando que tus mensajes siempre lleguen y tus números estén seguros.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-text">
+                            <h3>Asistentes de Voz Híbridos</h3>
+                            <p>Rompemos la barrera del texto. Nuestra tecnología permite que la misma IA que chatea, pueda atender llamadas telefónicas, ofreciendo una experiencia omnicanal verdadera.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-visual">
+                    <div class="wireframe-globe">
+                        <div class="ai-text">IA</div>
+                        <div class="rings"></div>
+                        <div class="particles"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Contact -->
+    <section id="contact" class="cta">
+        <div class="container">
+            <div class="cta-box">
+                <h2>Lleva tu empresa al siguiente nivel</h2>
+                <p>Agenda una demostración personalizada y descubre cuánto tiempo y dinero puedes ahorrar.</p>
+                <form class="contact-form">
+                    <input type="email" placeholder="Tu correo corporativo" required>
+                    <button type="submit" class="btn-primary">Solicitar Demo</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="ph-fill ph-hexagon" style="color: var(--accent-blue); margin-right: 8px;"></i>
+                    Heras<span>Technology</span>
+                </div>
+                <div class="footer-info">
+                    <span class="flag">🇬🇹</span> Sede en Guatemala
+                </div>
+                <div class="copyright">© 2025 Heras Technology. Todos los derechos reservados.</div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
