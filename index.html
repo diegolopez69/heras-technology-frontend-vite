@@ -176,10 +176,17 @@
         <div class="container">
             <div class="cta-box">
                 <h2>Lleva tu empresa al siguiente nivel</h2>
-                <p>Agenda una demostración personalizada y descubre cuánto tiempo y dinero puedes ahorrar.</p>
+                <p>Cuéntanos qué necesitas y te contactaremos en menos de 24 horas.</p>
                 <form class="contact-form">
-                    <input type="email" placeholder="Tu correo corporativo" required>
-                    <button type="submit" class="btn-primary">Solicitar Demo</button>
+                    <input type="email" name="user_email" placeholder="Tu correo corporativo" required>
+                    <select name="service_interest" required>
+                        <option value="" disabled selected>¿Qué solución te interesa?</option>
+                        <option value="Asistentes de Voz con IA">🎙️ Asistentes de Voz con IA</option>
+                        <option value="Automatización de Soporte y Ventas (Meta)">💬 Automatización de Soporte y Ventas (WhatsApp, IG, FB)</option>
+                        <option value="Lead Scoring Inteligente">🎯 Lead Scoring Inteligente</option>
+                        <option value="Solución Completa">✨ Solución Completa (Todo incluido)</option>
+                    </select>
+                    <button type="submit" class="btn-primary">Solicitar Demo Gratuita</button>
                 </form>
             </div>
         </div>

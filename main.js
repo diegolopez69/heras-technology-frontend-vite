@@ -80,17 +80,17 @@ document.addEventListener('DOMContentLoaded', () => {
             btn.disabled = true;
 
             // Parámetros para el template de EmailJS
-            // Asegúrate de que tu template en EmailJS espere 'user_email'
             const templateParams = {
-                user_email: contactForm.querySelector('input[type="email"]').value,
-                to_name: 'Diego & Socio', // Opcional, depende de tu template
-                message: 'Nuevo lead interesado en demo.' // Mensaje por defecto
+                user_email: contactForm.querySelector('input[name="user_email"]').value,
+                service_interest: contactForm.querySelector('select[name="service_interest"]').value,
+                to_name: 'Equipo Heras Technology',
+                message: `Nuevo lead interesado en: ${contactForm.querySelector('select[name="service_interest"]').value}`
             };
 
             // REEMPLAZA 'YOUR_SERVICE_ID' y 'YOUR_TEMPLATE_ID'
             emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
                 .then(function() {
-                    alert('¡Gracias! Hemos recibido tu solicitud. Te contactaremos pronto.');
+                    alert('¡Gracias! Hemos recibido tu solicitud. Nos pondremos en contacto contigo en menos de 24 horas.');
                     contactForm.reset();
                     btn.innerText = originalText;
                     btn.disabled = false;

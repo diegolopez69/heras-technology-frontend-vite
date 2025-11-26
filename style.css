@@ -660,27 +660,43 @@ a {
 
 .contact-form {
     display: flex;
+    flex-direction: column;
     gap: 16px;
-    justify-content: center;
-    flex-wrap: wrap;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
-.contact-form input {
+.contact-form input,
+.contact-form select {
     padding: 16px 24px;
     border-radius: 8px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     background: rgba(0, 0, 0, 0.2);
     color: var(--text-white);
-    min-width: 320px;
+    width: 100%;
     font-family: inherit;
     font-size: 1rem;
     transition: all 0.3s ease;
 }
 
-.contact-form input:focus {
+.contact-form select {
+    cursor: pointer;
+}
+
+.contact-form select option {
+    background: #0a192f;
+    color: white;
+}
+
+.contact-form input:focus,
+.contact-form select:focus {
     outline: none;
     border-color: var(--accent-blue);
     background: rgba(0, 0, 0, 0.4);
+}
+
+.contact-form button {
+    margin-top: 8px;
 }
 
 /* Footer */
