@@ -10,7 +10,7 @@ const translations = {
             badge: "Tecnología de Vanguardia",
             title: "El Futuro de la",
             titleHighlight: "Atención al Cliente",
-            subtitle: "Convierte conversaciones en ventas. Nuestra IA responde, califica y gestiona a tus clientes en WhatsApp y Redes Sociales con la precisión de un experto humano.",
+            subtitle: "Convierte conversaciones en ventas. Nuestra IA responde, califica y gestiona a tus clientes en WhatsApp y Redes Sociales como si fuera un experto humano.",
             cta: "Empezar Ahora",
             learnMore: "Ver cómo funciona"
         },
