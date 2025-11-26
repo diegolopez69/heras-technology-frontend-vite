@@ -15,24 +15,24 @@ const translations = {
             learnMore: "Ver cómo funciona"
         },
         cards: {
-            title: "Potencia tu Negocio",
-            subtitle: "Una plataforma integral para escalar tus ventas sin aumentar personal.",
-            card1Title: "Integración Total",
-            card1Desc: "Centraliza WhatsApp, Instagram y Facebook. Olvida tener múltiples pestañas abiertas; gestiona todo desde un solo cerebro digital.",
-            card2Title: "Memoria Corporativa (RAG)",
-            card2Desc: "A diferencia de los chatbots básicos, nuestra IA estudia tus manuales y PDFs para responder con la misma precisión que tu mejor empleado.",
-            card3Title: "Ventas Automáticas",
-            card3Desc: "El sistema detecta quién quiere comprar y quién solo mira. Cierra ventas simples y agenda citas con los clientes de alto valor."
+            title: "Nuestros Productos",
+            subtitle: "Soluciones integrales para escalar tus ventas sin aumentar personal.",
+            card1Title: "Automatización de Soporte y Ventas",
+            card1Desc: "Centraliza WhatsApp, Instagram y Facebook. Olvida tener múltiples pestañas abiertas y gestiona todo desde un solo cerebro digital.",
+            card2Title: "Asistentes de Voz con IA",
+            card2Desc: "Rompemos la barrera del texto. Nuestra IA atiende llamadas telefónicas con voz natural, ofreciendo una experiencia de comunicación fluida y humana.",
+            card3Title: "Lead Scoring Inteligente",
+            card3Desc: "El sistema analiza cada conversación para detectar intención de compra real. Filtra a los curiosos y prioriza a los clientes listos para pagar."
         },
         timeline: {
             title: "¿Por qué Heras Technology?",
             subtitle: "No somos solo un chatbot. Somos tu infraestructura de crecimiento.",
-            item1Title: "Inteligencia Contextual",
-            item1Desc: "Utilizamos tecnología RAG (Retrieval-Augmented Generation). Esto significa que la IA no \"inventa\" respuestas, sino que consulta tu base de conocimiento en tiempo real para dar información veraz y específica de tu negocio.",
+            item1Title: "Memoria Corporativa (RAG)",
+            item1Desc: "A diferencia de los chatbots básicos, nuestra IA entiende profundamente de qué va tu empresa. Asimila tus políticas, catálogo y tu forma preferida de vender para responder con la precisión de tu mejor empleado.",
             item2Title: "Ecosistema Meta Nativo",
             item2Desc: "Conexión directa con la API de WhatsApp Business. Sin intermediarios inestables, garantizando que tus mensajes siempre lleguen y tus números estén seguros.",
-            item3Title: "Asistentes de Voz Híbridos",
-            item3Desc: "Rompemos la barrera del texto. Nuestra tecnología permite que la misma IA que chatea, pueda atender llamadas telefónicas, ofreciendo una experiencia omnicanal verdadera."
+            item3Title: "Gestión Unificada",
+            item3Desc: "Olvídate de la fragmentación. Unificamos todos tus canales de atención en una sola plataforma robusta, eliminando el caos de múltiples herramientas."
         },
         cta: {
             title: "Lleva tu empresa al siguiente nivel",
@@ -40,7 +40,7 @@ const translations = {
             emailPlaceholder: "Tu correo corporativo",
             selectPlaceholder: "¿Qué solución te interesa?",
             option1: "🎙️ Asistentes de Voz con IA",
-            option2: "💬 Automatización de Soporte y Ventas (WhatsApp, IG, FB)",
+            option2: "💬 Automatización de Soporte y Ventas (Meta)",
             option3: "🎯 Lead Scoring Inteligente",
             option4: "✨ Solución Completa (Todo incluido)",
             button: "Solicitar Demo Gratuita"
@@ -65,24 +65,24 @@ const translations = {
             learnMore: "See how it works"
         },
         cards: {
-            title: "Power Your Business",
-            subtitle: "An all-in-one platform to scale your sales without increasing headcount.",
-            card1Title: "Total Integration",
-            card1Desc: "Centralize WhatsApp, Instagram, and Facebook. Forget about multiple open tabs; manage everything from a single digital brain.",
-            card2Title: "Corporate Memory (RAG)",
-            card2Desc: "Unlike basic chatbots, our AI studies your manuals and PDFs to respond with the same precision as your best employee.",
-            card3Title: "Automated Sales",
-            card3Desc: "The system detects who wants to buy and who's just browsing. Close simple sales and schedule appointments with high-value customers."
+            title: "Our Products",
+            subtitle: "Comprehensive solutions to scale your sales without increasing headcount.",
+            card1Title: "Support & Sales Automation",
+            card1Desc: "Centralize WhatsApp, Instagram, and Facebook. Forget about multiple open tabs and manage everything from a single digital brain.",
+            card2Title: "AI Voice Assistants",
+            card2Desc: "We break the text barrier. Our AI handles phone calls with natural voice, offering a fluid and human-like communication experience.",
+            card3Title: "Intelligent Lead Scoring",
+            card3Desc: "The system analyzes every conversation to detect real buying intent. It filters out window shoppers and prioritizes customers ready to pay."
         },
         timeline: {
             title: "Why Heras Technology?",
             subtitle: "We're not just a chatbot. We're your growth infrastructure.",
-            item1Title: "Contextual Intelligence",
-            item1Desc: "We use RAG (Retrieval-Augmented Generation) technology. This means the AI doesn't \"make up\" answers, but consults your knowledge base in real-time to provide truthful, business-specific information.",
+            item1Title: "Corporate Memory (RAG)",
+            item1Desc: "Unlike basic chatbots, our AI deeply understands what your company is about. It assimilates your policies, catalog, and preferred selling style to respond with the precision of your best employee.",
             item2Title: "Native Meta Ecosystem",
             item2Desc: "Direct connection to WhatsApp Business API. No unstable intermediaries, ensuring your messages always arrive and your numbers stay secure.",
-            item3Title: "Hybrid Voice Assistants",
-            item3Desc: "We break the text barrier. Our technology allows the same AI that chats to handle phone calls, offering a true omnichannel experience."
+            item3Title: "Unified Management",
+            item3Desc: "Forget fragmentation. We unify all your service channels into a single robust platform, eliminating the chaos of multiple tools."
         },
         cta: {
             title: "Take your company to the next level",
@@ -90,7 +90,7 @@ const translations = {
             emailPlaceholder: "Your corporate email",
             selectPlaceholder: "Which solution interests you?",
             option1: "🎙️ AI Voice Assistants",
-            option2: "💬 Support & Sales Automation (WhatsApp, IG, FB)",
+            option2: "💬 Support & Sales Automation (Meta)",
             option3: "🎯 Intelligent Lead Scoring",
             option4: "✨ Complete Solution (All-inclusive)",
             button: "Request Free Demo"
