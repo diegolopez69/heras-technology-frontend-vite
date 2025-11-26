@@ -103,8 +103,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 message: `Nuevo lead interesado en: ${contactForm.querySelector('select[name="service_interest"]').value}`
             };
 
-            // REEMPLAZA 'YOUR_SERVICE_ID' y 'YOUR_TEMPLATE_ID'
-            emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
+            // EmailJS configuration
+            emailjs.send('service_xqnl3nu', 'template_h40acnb', templateParams)
                 .then(function() {
                     alert('¡Gracias! Hemos recibido tu solicitud. Nos pondremos en contacto contigo en menos de 24 horas.');
                     contactForm.reset();
