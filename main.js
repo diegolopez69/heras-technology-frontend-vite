@@ -1,26 +1,42 @@
 import './style.css'
+import { updateContent } from './translations.js'
 
 document.addEventListener('DOMContentLoaded', () => {
+    // Initialize language from localStorage or default to Spanish
+    const savedLang = localStorage.getItem('preferredLang') || 'es';
+    updateContent(savedLang);
+
+    // Language Switcher
+    const langSwitcher = document.getElementById('langSwitcher');
+    if (langSwitcher) {
+        langSwitcher.addEventListener('click', () => {
+            const currentLang = localStorage.getItem('preferredLang') || 'es';
+            const newLang = currentLang === 'es' ? 'en' : 'es';
+            updateContent(newLang);
+        });
+    }
+
     // Mobile Menu Toggle
     const mobileBtn = document.querySelector('.mobile-menu-btn');
     const navLinks = document.querySelector('.nav-links');
 
     if (mobileBtn) {
         mobileBtn.addEventListener('click', () => {
-            if (navLinks.style.display === 'flex') {
-                navLinks.style.display = 'none';
+            navLinks.classList.toggle('active');
+            const icon = mobileBtn.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.className = 'ph ph-x';
             } else {
-                navLinks.style.display = 'flex';
-                navLinks.style.flexDirection = 'column';
-                navLinks.style.position = 'absolute';
-                navLinks.style.top = '80px';
-                navLinks.style.left = '0';
-                navLinks.style.width = '100%';
-                navLinks.style.background = 'rgba(2, 12, 27, 0.95)';
-                navLinks.style.padding = '24px';
-                navLinks.style.borderBottom = '1px solid var(--border)';
-                navLinks.style.backdropFilter = 'blur(10px)';
+                icon.className = 'ph ph-list';
             }
+        });
+
+        // Close menu when clicking on a link
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                mobileBtn.querySelector('i').className = 'ph ph-list';
+            });
         });
     }
 
