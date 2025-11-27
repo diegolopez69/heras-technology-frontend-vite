@@ -12,6 +12,7 @@ Plataforma web diseñada para captar leads interesados en:
 - 🎙️ **Asistentes de Voz con IA**
 - 💬 **Automatización de Soporte y Ventas** (WhatsApp, Instagram, Facebook)
 - 🎯 **Lead Scoring Inteligente**
+- 🌍 **Soporte Bilingüe** (Español / Inglés)
 
 ## 🛠️ Stack Tecnológico
 
@@ -99,6 +100,8 @@ heras-web/
 ├── index.html          # Página principal
 ├── style.css           # Estilos globales
 ├── main.js             # Lógica de interacción
+├── translations.js     # Diccionario de traducciones (ES/EN)
+├── EMAILJS_SETUP.md    # Guía de configuración de EmailJS
 ├── Dockerfile          # Configuración Docker
 ├── .dockerignore       # Archivos excluidos del build
 ├── package.json        # Dependencias
