@@ -11,6 +11,7 @@ Landing page corporativa para **Heras Technology**, empresa especializada en sol
 Plataforma web diseñada para captar leads interesados en:
 - 🎙️ **Asistentes de Voz con IA**
 - 💬 **Automatización de Soporte y Ventas** (WhatsApp, Instagram, Facebook)
+- 🤖 **Chat Widget Inteligente** (Integrado con RAG)
 - 🎯 **Lead Scoring Inteligente**
 - 🌍 **Soporte Bilingüe** (Español / Inglés)
 
@@ -52,6 +53,10 @@ npm run dev
 ```
 
 El sitio estará disponible en `http://localhost:5173`
+
+> [!IMPORTANT]
+> Para que el **Chat Widget** funcione, debes tener corriendo el backend de la infraestructura (`platform-backend`) en el puerto `8000`.
+> Consulta el README de la carpeta `2da fase` para más detalles.
 
 ## 🔧 Configuración de EmailJS
 

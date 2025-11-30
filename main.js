@@ -1,5 +1,6 @@
 import './style.css'
 import { updateContent } from './translations.js'
+import { ChatWidget } from './src/chat.js'
 
 document.addEventListener('DOMContentLoaded', () => {
     // Initialize language from localStorage or default to Spanish
@@ -118,4 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
         });
     }
+
+    // Initialize Chat Widget
+    new ChatWidget();
 });
